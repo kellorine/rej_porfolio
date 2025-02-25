@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Card, Modal, Button } from 'react-bootstrap';
 import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaGithub, FaReact } from 'react-icons/fa';
 import { SiMicrosoftexcel, SiMicrosoftword } from 'react-icons/si';
-
 function Projects() {
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
@@ -23,10 +22,11 @@ function Projects() {
       title: "BIGASAN ORDER",
       description: "Fresh, High-Quality Rice.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      image: "/rice.JPG",
+      image: "rice.JPG", // Direct path from public folder
       link: "https://kellorine.github.io/Bigasan/"
     }
   ];
+  
 
   const handleCardClick = (project) => {
     setSelectedProject(project);

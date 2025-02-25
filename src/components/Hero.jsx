@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Typewriter } from 'react-simple-typewriter'; // Import Typewriter
+import profileImage from '/rej.jpg';
 
 function Hero() {
   return (
@@ -39,7 +40,7 @@ function Hero() {
           </Col>
 
           <Col lg={6} className="text-center mb-5 mb-lg-0">
-            <img src="/rej.jpg" alt="Profile" className="hero-image img-fluid" />
+          <img src={profileImage} alt="Profile" className="hero-image img-fluid" />
           </Col>
         </Row>
       </Container>
