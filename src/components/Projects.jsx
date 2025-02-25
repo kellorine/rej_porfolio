@@ -26,7 +26,7 @@ function Projects() {
       link: "https://kellorine.github.io/Bigasan/"
     },
     {
-      title: "COFFE SHOP",
+      title: "COFFEE SHOP",
       description: "Discover our delicious drinks, snacks, and desserts.",
       technologies: ["HTML", "CSS", "JavaScript","React","Bootstrap"],
       image: "coffee.JPG", // Direct path from public folder
