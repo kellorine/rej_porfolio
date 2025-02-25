@@ -24,6 +24,13 @@ function Projects() {
       technologies: ["HTML", "CSS", "JavaScript"],
       image: "rice.JPG", // Direct path from public folder
       link: "https://kellorine.github.io/Bigasan/"
+    },
+    {
+      title: "COFFE SHOP",
+      description: "Discover our delicious drinks, snacks, and desserts.",
+      technologies: ["HTML", "CSS", "JavaScript","React","Bootstrap"],
+      image: "coffee.JPG", // Direct path from public folder
+      link: "https://kellorine.github.io/rej_coffee/"
     }
   ];
   
