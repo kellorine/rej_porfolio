@@ -16,7 +16,7 @@ function About() {
             <div className="skill-card">
               <FaGraduationCap className="skill-icon" />
               <h3 className="h4">Education</h3>
-              <p>Bachelor of Science in Information<br />
+              <p>Bachelor of Science in Information System<br />
                 La Concepcion College (2018-2024)<br />
                 Tech-Voc ICT<br />
                 Christian Ecclesiastical School (2012-2018)</p>
